@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel ="stylesheet" href="css/font-awesome.css">
+     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <div class="container-fluid header">
+        <div class="row">  
+
+            
+            <div class="col-md-3 col">
+                <img class="crimages" src="crimages/logo.png" alt="crimages"><br><br>
+                <div class="i-tags">
+
+                <span class="fa-solid fa-gauge-high dashboard" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Dashboard</span>
+                <h5 style="color : white; margin : -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-users-line customers" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Customers</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+                     
+                <span class="fa-solid fa-basket-shopping transaction" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Transaction</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-cart-shopping sales" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Sales</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-book accounting" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Accounting</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-file-text report" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Report</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-bell attendance" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Attendance</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-edit recruitment" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Recruitment</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-basket-shopping payroll" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;payroll</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-brands fa-bitbucket stock" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;stock</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-ticket tickets" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Tickets</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-list utilities" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Utilities</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-bar-chart charts" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Charts</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-briefcase icons" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Icons</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-list other" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Other page</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-brands fa-bitbucket ui" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;UI Elements</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-gear settings" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;settings</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-house-chimney companies" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Companies</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-stop-circle holiday" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Public Holiday</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-user-circle user" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;User</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-file items" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Items</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-solid fa-tree departments" departments style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Departments</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-file-text documents" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Documents</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-regular fa-clock training" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Training</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-calendar calendar" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Calendar</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-file-text notice" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Notice Board</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa-regular fa-envelope message" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Message</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5><br>
+
+                <span class="fa fa-comment notes" style = "color : white; font-weight : 900;"> &nbsp;&nbsp;Notes</span>
+                <h5 style="color : white; margin: -25px 0px 0px 269px;"><</h5>
+       
+                </div>    
+            </div>
+
+           <div class="col-md-9 sheader">
+                <div class="row head1">
+                <i class="fa-solid fa-circle-chevron-left" style="color: white;
+                margin: 21px 0px 0px 5px;
+                font-size: 22px;"></i>
+                <i class="fa fa-search searchs" style = "margin: -69px 0px 0px 50px;
+                 color: white;"></i> 
+                <div class="dropdown" style = "margin : -123px 0px 0px 0px;">
+                <button class="dropbtn" style = "margin: -40px 0px 0px -17px;
+                background-color: #2a3f54;">
+                <i class="fa-solid fa-cart-shopping" style="font-size: 143%;
+                margin: -125px 0px 0px 664px;
+                color: white;"></i>
+              
+                </button>
+                <div class="dropdown-content">
+                <a href="#">
+                    <div class="container">
+                      <img src="crimages/basketball-jersey.png" alt="#">
+                      <p>polo shirt</p>
+                      <p>total item: 21</p>
+                    </div>
+                </a>
+                <a href="#">
+                     <div class="container">
+                      <img src="crimages/shirt.png" alt="#">
+                      <p>Kits</p>
+                      <p>total item: 11</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="container">
+                      <img src="crimages/football.png" alt="#">
+                      <p>Football</p>
+                      <p>total item: 16</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="container">
+                      <img src="crimages/shoe.png" alt="#">
+                      <p>Sports sheos</p>
+                      <p>total item: 10</p>
+                    </div>
+                </a>                
+                </div>
+                </div>
+                <i class="fa-regular fa-envelope envelops" style="margin : -175px 0px 0px 707px;
+                 font-size: 143%;
+                 color: white;"></i>
+                <i class="fa-regular fa-bell bells" style = "margin: -228px 0px 0px 748px;
+                 font-size: 143%;
+                 color: white;"></i>
+               
+                <img src="crimages/avatar5.png" class="img-circle" width="45" height="45" alt="user">
+                </div>
+                
+                <div class="row head2">
+                    <i class="fa fa-dashboard dash" style = "font-size: 256%;
+                    color: #009688;"></i>
+                    <p style="font-size: 24px;
+                     margin: -52px 0px 0px 58px; font-weight : 600;">CRM Admin Dashboard</p>
+                    <p>Very detailed & featured admin.</p>
+                     <i class="fa-regular fa-file-lines lines" style ="margin: -102px 0px 0px 790px;
+                     color: white;
+                     font-size: 143%;"></i>
+                     <i class="fa-solid fa-gear gear" style="color: white;
+                      font-size: 143%;
+                      margin: -107px 0px 0px 824px;"></i>   
+                      <span class="label label-success circle1">4</span>
+                      <span class="label label-warning circle2">7</span>
+                      <span class="label label-danger circle3">6</span>
+                </div>    
+                <div class="row head3">
+                    <div class="col-md-3 thirty1">
+                        <i class="fa fa-user-plus fa-3x"></i>
+                        <h5>Active Client</h5>
+                        <p style="font-size: 20px;
+                        color: #e4e5e7;
+                        margin: -82px 0px 0px 132px;">11</p>           
+                        <span class="slight"><i class="fa fa-play fa-rotate-270" style="position: relative; top: -26px; left: 160px; font-size: 11px;"></i></span>           
+                    </div>
+
+                    <div class="col-md-3 thirty2">
+                        <i class="fa fa-user-secret fa-3x"></i>
+                        <h5>Active Admin</h5>
+                        <p style="font-size: 20px;
+                        color: #e4e5e7;
+                        margin: -82px 0px 0px 132px;">4</p>
+                        <span class="slight"><i class="fa fa-play fa-rotate-270" style="position: relative; top: -26px; left: 148px; font-size: 11px;"></i></span> 
+                    </div>
+
+                    <div class="col-md-3 thirty3">
+                         <i class="fa-regular fa-money-bill-1"></i>
+                        <h5>Total Expenses</h5>
+                        <p style="    font-size: 20px;  
+                        color: #e4e5e7;
+                        margin: -108px 0px 0px 112px;">$965</p>
+                        <span class="slight"><i class="fa fa-play fa-rotate-270" style="position: relative; top: -26px; left: 157px; font-size: 11px;"></i></span> 
+                    </div>
+
+                    <div class="col-md-3 thirty4">
+                       <i class="fa-regular fa-paste"></i>
+                        <h5>Running Projects</h5>
+                        <p style="font-size: 20px;
+                        color: #e4e5e7;
+                        margin: -82px 0px 0px 131px;">11</p>
+                        <span class="slight"><i class="fa fa-play fa-rotate-270" style="position: relative; top: -26px; left: 154px; font-size: 11px;"></i></span> 
+                    </div>
+
+                <div class="row head4">
+                    <div class="col-md-3">
+                          <div class="card cardtop">
+                          <div class="card-header">   
+                          <h4>Upcoming Events</h4>
+                          </div>
+                          <div class="card-body body1">
+                            <ul class="list-group list-group-flush">
+                            <li class="list-group-item list1">
+                                <span class="day">28</span><br>
+                                <span class="month">APR</span>
+                                <h4>Marketing policy</h4>
+                                <p style = "border-radius: 3px;
+                                     margin: -20px 0px 0px 325px;
+                                     color: white;
+                                      background-color: #009688;
+                                      border: 2px solid #009688;
+                                    text-align: center;">Email</p>
+                                <p>Green Road - Dhaka,Bangladesh</p>
+                            </li>
+                            <li class="list-group-item list2">
+                                <span class="day">2</span><br>
+                                <span class="month">APR</span>
+                                <h4>Accounting policy</h4>
+                                <p style = "border-radius: 3px;
+                                    margin: -21px 0px 0px 326px;
+                                   color: white;
+                                    background-color: #009688;
+                                    border: 2px solid #009688;
+                                     text-align: center;">skype</p>
+                                <p>Kolkata, India</p>
+                            </li>
+                            <li class="list-group-item list3">
+                                <span class="day">17</span><br>
+                                <span class="month">MRC</span>
+                                <h4>Marketing policy</h4>
+                                <p style="border-radius: 3px;
+                                    margin: -20px 0px 0px 323px;
+                                     color: white;
+                                     background-color: #009688;
+                                     border: 2px solid #009688;
+                                     text-align: center;">phone</p>
+                                <p>Madrid - spain</p>
+                            </li>
+                               
+                            <li class="list-group-item list4">
+                                <span class="day">3</span><br>
+                                <span class="month">JAN</span>
+                                <h4>Finance policy</h4>
+                                <p style="border-radius: 3px;
+                                   margin: -20px 0px 0px 323px;
+                                   color: white;
+                                    background-color: #009688;
+                                    border: 2px solid #009688;
+                                    text-align: center;">Mobile</p>
+                                <p>south Australia - Australia</p>
+                            </li>
+                            </ul>
+                          </div>
+
+                          </div>
+                    </div>
+
+                    <div class="col-md-3 offset-md-6">
+                          <div class="card cardtop1">
+                          <div class="card-header">   
+                          <h4>Running Projects</h4>
+                          </div>
+                            <div class="card-body">
+                            <div class="card-body">
+                  
+                            <div class="d-flex justify-content-between box1">
+                            <i class="fa-regular fa-circle-dot text-primary itag1"></i>
+                            <h4 class="database">Database configuration</h4>
+                          
+                            <span class="failed" style="margin: 0px 0px 12px 90px;
+                             color: white;
+                             width: 20%;">failed</span>
+                            </div>
+                            <div class="progress progress1" style="padding: 0px 0px 0px 0px;
+                           height: 6px;  margin: 0px 0px 10px 0px;">
+                            <div class="progress-bar bg-primary progress-bar-striped" style="width : 25%" ></div>
+                            </div>
+
+                            <div class="d-flex justify-content-between box2">
+                            <i class="fa-regular fa-circle-dot text-primary itag2"></i>
+                            <h4 class="database1">Design tool</h4>
+                          
+                            <span class="failed1">progressing</span>
+                            </div>
+                            <div class="progress" style="    height: 6px;  margin: 10px 0px 10px -2px;padding: 0px 0px 0px 0px;">
+                            <div class="progress-bar bg-primary progress-bar-striped" style="width : 15%" ></div>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                            <i class="fa-regular fa-circle-dot text-primary itag3"></i>
+                            <h4 class="database2">Internet configuration</h4>
+                          
+                            <span class="failed2">progressing</span>
+                            </div>
+                            <div class="progress" style="    height: 6px; margin: 10px 0px 10px 0px;
+                             padding: 0px 0px 0px 0px;">
+                            <div class="progress-bar bg-primary progress-bar-striped" style="width : 45%" ></div>
+                            </div>
+
+                            <div class="d-flex justify-content-between box3">
+                            <i class="fa-regular fa-circle-dot text-primary itag4"></i>
+                            <h4 class="database3">Banner completation</h4>
+                          
+                            <span class="failed3">progressing</span>
+                            </div>
+                            <div class="progress" style="    height: 6px; margin: 10px 0px 10px 0px;
+                            padding: 0px 0px 0px 0px; ">
+                            <div class="progress-bar bg-primary progress-bar-striped" style="width : 75%" ></div>
+                            </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between box4">
+                            <i class="fa-regular fa-circle-dot text-primary itag5"></i>
+                            <h4 class="database4">IT Solution</h4>
+                          
+                            <span class="failed4">Success</span>
+                            </div>
+                            <div class="progress progress5" style="    height: 6px;  margin: 10px 16px 0px 16px;  padding: 0px 0px 0px 0px;">
+                            <div class="progress-bar bg-primary progress-bar-striped" style="width : 50%" ></div>
+                            </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+
+                  <div class="row head5">
+                    <div class="col-md-3">
+                          <div class="card cardtop2">
+                          <div class="card-header">   
+                          <h4>Pending Works</h4>
+                          </div>
+                          <div class="card-body" style="margin: -24px 0px 0px 0px;">
+                          <p class="card-text"></p>
+                          <i class="fa fa-ban itaga"></i>
+                          <h4 class="a">Database tools</h4>
+                          <p class="progress"  style="margin: -18px 0px 0px 292px;">progressing</p>
+                          <p style="font-size: 80%;">Jul 25, 2017 for Alimul Alrazy</p>
+                          <i class="fa fa-ban itagb"></i>
+                          <h4 class="b">Cabels</h4>
+                          <p class="success" style="margin: -18px 0px 0px 321px;">success</p>
+                          <p style="font-size: 80%;">Jul 25, 2017 for Alimul</p>
+                          <i class="fa fa-ban itagc"></i>
+                          <h4 class="c">Technologycal tools</h4>
+                          <p class="failed" style="margin: -18px 0px 0px 332px;">Failed</p>
+                          <p style="font-size: 80%;">Feb 25, 2017 for Alrazy</p>
+                          <i class="fa fa-ban itagd"></i>
+                          <h4 class="d">Transaction</h4><br>
+                          <p class="progress1">progressing</p>
+                          <p style="font-size: 80%;">apr 25, 2017 for Mahfuz</p>
+                          <i class="fa fa-ban itage"></i>  
+                          <h4 class="d">Training tools</h4><br>
+                          <p class="success1" style="margin: -44px 0px 0px 291px;">success</p>
+                          <p style="font-size: 80%;">jun 25, 2017 for Alrazy</p>
+                          </div>
+                    </div>
+                    
+                    <div class="col-md-3 offset-md-6">
+                          <div class="card cardtop3">
+                          <div class="card-header">   
+                          <h4>Works Deadlines</h4>
+                          </div>
+                          <div class="card-body">
+                          <p class="card-text"></p>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item list5">
+                                <h4 class="task">Task Name</h4>
+                                <h4 class="deadline">End Deadlines</h4>
+                            </li>
+
+                            <li class="list-group-item list6">
+                                <h4>Alrazy</h4>
+                                <p>Feb 25,2017</p>
+                            </li>
+
+                            <li class="list-group-item list7">
+                                <h4>Jahir</h4>
+                                <p>jun 05,2017</p>
+                            </li>
+
+                            <li class="list-group-item list8">
+                                <h4>Sayeed</h4>
+                                <p>Feb 05,2017</p>
+                            </li>
+
+                            <li class="list-group-item list9">
+                                <h4>Shipon</h4>
+                                <p>jun 25,2017</p>
+                            </li>
+
+                            <li class="list-group-item list10">
+                                <h4>Rafi</h4>
+                                <p>jun 25,2017</p>
+                            </li>
+                            </ul>
+
+                          </div>
+
+                          </div>
+                    </div>
+                </div>
+
+                  <div class="row head6">
+                    <div class="col-md-3">
+                          <div class="card cardtop4">
+                          <div class="card-header">   
+                          <h4>Works Announcements</h4>
+                          </div>
+                          <div class="card-body">
+                          <p class="card-text"></p>
+                           <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 class="task">Works Type</h4>
+                                <h4 class="deadline">Name Of Worker</h4>
+                            </li>
+
+                            <li class="list-group-item item11">
+                                <p class="web">Web Design</p>                                
+                                <p class="dev">Jr. Developer Alrazy</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="net">Networking</p>                                
+                                <p class="jahir">Jr. Developer Jahir</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="mag">Megento</p>                                
+                                <p class="sayeed">Jr. Developer Sayeed</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="php">Php,Laravel</p>                                
+                                <p class="muhim">Jr. Developer Muhim</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="htm">Html,css</p>
+                                <p class="rafi">Frontend Developer Rafi</p>
+                            </li>
+                            </ul>
+                          </div>
+
+                          </div>
+                    </div>
+
+                    <div class="col-md-3 offset-md-6">
+                          <div class="card cardtop5">
+                          <div class="card-header">   
+                          <h4>Notice board</h4>
+                          </div>
+                          <div class="card-body">
+                          <p class="card-text"></p>
+                           <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 class="not">Notice</h4>
+                                <h4 class="pub">Published By</h4>
+                                <h4 class="date">Date Added</h4>
+                            </li>
+
+                            <li class="list-group-item item22">
+                                <p class="ne">new notice</p>                                
+                                <p class="alr">Mr. Alrazy</p>
+                                <p class="ap">20th April 2017</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="ur">Urgent notice</p>                                
+                                <p class="mr">Mr. Alrazy</p>
+                                <p class="tw">20th june 2017</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="urg">Urgent notice</p>                                
+                                <p class="jah">Mr. Jahir</p>
+                                <p class="tsi">26th june 2017</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="urge">Urgent notice</p>                                
+                                <p class="le">Mr. leo</p>
+                                <p class="jun">3rd june 2017</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                <p class="noti">Notice</p>
+                                <p class="kar">Mr. Karim</p>
+                                <p class="thir">3rd june 2017</p>
+                            </li>
+                            </ul>
+                          </div>
+
+                          </div>
+                    </div>
+                </div>
+
+                <div class="row head7">
+                    <div class="col-md-6">
+                          <div class="card cardtop6">
+                          <div class="card-header">   
+                          <h4>This Year Earnings & Expenses(Bar Chart)</h4>
+                          </div>
+                          <div class="card-body">
+                           <img src = "crimages/download.png" alt="#" style = "margin: 16px 0px 0px -1px;
+                            width: 100%;  height: 86%;">
+                          <p class="card-text"></p>
+                          </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-3 offset-md-7">
+                          <div class="card cardtop7">
+                          <div class="card-header">   
+                          <h4>Weekly Earnings and Expenses</h4>
+                          </div>
+                          <div class="card-body">
+                          <img src = "crimages/download (1).png" alt="#" style="margin : 17px 0px 0px -11px;">  
+                          <p class="card-text"></p>
+                          </div>
+
+                          </div>
+                    </div>
+                </div>
+              
+                 <div class="row head8">
+                    <div class="col-md-6">
+                          <div class="card cardtop8">
+                          <div class="card-header">   
+                          <h4>Google Map</h4>
+                          </div>
+                          <div class="card-body">
+                          <p class="card-text"></p>
+                          <iframe src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=15+Springfield+Way,+Hythe,+CT21+5SH&amp;aq=t&amp;sll=52.8382,-2.327815&amp;sspn=8.047465,13.666992&amp;ie=UTF8&amp;hq=&amp;hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&amp;t=m&amp;z=14&amp;ll=51.077429,1.121722&amp;output=embed"  width = "100%"  height="400px"></iframe>
+                          </div>  
+                          </div>
+                    </div>
+
+                    <div class="col-md-3 offset-md-7">
+                          <div class="card cardtop9">
+                          <div class="card-header">   
+                          <h4>Calender</h4>
+                          </div>
+                          <div class="card-body">
+                          <p class="card-text"></p>
+                          </div>
+
+                          </div>
+                    </div>
+                </div>
+
+               
+               
+                </div> 
+               
+            </div>
+             <div class="row head9">
+                    <div class="col-md-3 slast">
+                    
+                    </div>
+
+                    <div class="col-md-9 last">
+                        <p>Copyright © 2016-2017 Thememinister. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
